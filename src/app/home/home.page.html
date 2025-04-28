@@ -1,20 +1,22 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <div class="custom-header">
+    <h1><span class="red-letter">F</span>azenda do <span class="red-letter">S</span>aber</h1>
+  </div>
 
   <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+    <ion-button shape="round" size="large" color="danger">
+      <ion-icon name="play-outline" slot="start"></ion-icon>
+      <p>JOGAR</p>
+    </ion-button>
+  </div>
+
+  <div class="custom-footer">
+    <ion-button shape="round">
+      <ion-icon name="game-controller-outline"></ion-icon>
+    </ion-button>
+
+    <ion-button shape="round">
+      <ion-icon name="settings-outline"></ion-icon>
+    </ion-button>
   </div>
 </ion-content>
