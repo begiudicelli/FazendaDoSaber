@@ -6,39 +6,41 @@
 
 <ion-content [fullscreen]="true">
   <h1>ESCOLHA A REGIÃO QUE QUER JOGAR</h1>
+  <ion-img src="/assets/escolhaRegioes/mapaBrasilBranco.png" alt="Mapa Brasil" class="imagem-mapa"></ion-img>
+
   <ion-grid>
     <ion-row class="ion-justify-content-center">
       <ion-col size="12">
-        <ion-button expand="block" class="botao-branco">
+        <ion-button expand="block" class="botao-branco" (click)="selecionarRegiao('Norte')">
           <span class="bolinha" style="background-color: green;"></span>
           Norte
         </ion-button>
       </ion-col>
-      
+
       <ion-col size="12">
-        <ion-button expand="block" class="botao-branco">
-          <span class="bolinha" style="background-color: orange;"></span>
+        <ion-button expand="block" class="botao-branco" (click)="selecionarRegiao('Nordeste')">
+          <span class="bolinha" style="background-color: brown;"></span>
           Nordeste
         </ion-button>
       </ion-col>
-      
+
       <ion-col size="12">
-        <ion-button expand="block" class="botao-branco">
+        <ion-button expand="block" class="botao-branco" (click)="selecionarRegiao('Sudeste')">
           <span class="bolinha" style="background-color: purple;"></span>
           Sudeste
         </ion-button>
       </ion-col>
-      
+
       <ion-col size="12">
-        <ion-button expand="block" class="botao-branco">
+        <ion-button expand="block" class="botao-branco" (click)="selecionarRegiao('Sul')">
           <span class="bolinha" style="background-color: blue;"></span>
           Sul
         </ion-button>
       </ion-col>
-      
+
       <ion-col size="12">
-        <ion-button expand="block" class="botao-branco">
-          <span class="bolinha" style="background-color: brown;"></span>
+        <ion-button expand="block" class="botao-branco" (click)="selecionarRegiao('Centro-Oeste')">
+          <span class="bolinha" style="background-color: pink;"></span>
           Centro-Oeste
         </ion-button>
       </ion-col>

@@ -14,4 +14,8 @@ export const routes: Routes = [
     path: 'escolha-regioes',
     loadComponent: () => import('./escolha-regioes/escolha-regioes.page').then( m => m.EscolhaRegioesPage)
   },
+  {
+    path: 'confirma-regiao',
+    loadComponent: () => import('./confirma-regiao/confirma-regiao.page').then( m => m.ConfirmaRegiaoPage)
+  },
 ];

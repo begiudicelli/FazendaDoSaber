@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
-import { IonContent, IonButton, IonTitle, IonToolbar, IonHeader, IonFooter, IonButtons, IonIcon,} from '@ionic/angular/standalone';
+import { IonContent, IonButton, IonTitle, IonToolbar, IonHeader, IonButtons, IonIcon,} from '@ionic/angular/standalone';
 
 import { addIcons } from 'ionicons';
 import { playOutline , settingsOutline, gameControllerOutline} from 'ionicons/icons';
@@ -9,7 +9,7 @@ import { playOutline , settingsOutline, gameControllerOutline} from 'ionicons/ic
   selector: 'app-home',
   templateUrl: 'home.page.html',
   styleUrls: ['home.page.scss'],
-  imports: [IonContent, IonButton, IonTitle, IonToolbar, IonHeader, IonFooter, IonButtons, IonIcon],
+  imports: [IonContent, IonButton, IonTitle, IonToolbar, IonHeader, IonButtons, IonIcon],
 })
 export class HomePage {
   constructor(private router: Router) {

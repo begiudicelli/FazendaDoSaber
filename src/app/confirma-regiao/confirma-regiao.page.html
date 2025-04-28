@@ -1,0 +1,14 @@
+<ion-toolbar color="orange">
+  <ion-buttons slot="start">
+    <ion-back-button defaultHref="/"></ion-back-button>
+  </ion-buttons>
+</ion-toolbar>
+
+<ion-content [fullscreen]="true" color="orange">
+  <h1>Região Escolhida: {{ regiaoEscolhida }}</h1>
+
+  <ion-img [src]="'/assets/escolhaRegioes/' + regiaoEscolhida + '.png'" alt="Imagem da Região" class="imagem-animal"></ion-img>
+
+  <p>Dificuldade: {{ dificuldade }}</p>
+  <p>Animal: {{ animal }}</p>
+</ion-content>

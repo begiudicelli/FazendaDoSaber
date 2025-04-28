@@ -4,9 +4,10 @@ ion-content {
   
   h1 {
     text-align: center;
-    margin-top: 20px;
+    margin-top: -20px; 
     color: black;
     font-family: 'Kameron', serif;
+    font-size: 20px;
   }
   
   .botao-branco {
@@ -19,10 +20,6 @@ ion-content {
     text-align: left; 
   }
   
-  .botao-branco button {
-    font-family: 'Kameron', serif;
-  }
-  
   .bolinha {
     position: absolute;
     left: 16px;
@@ -33,4 +30,3 @@ ion-content {
     height: 12px;
     border-radius: 50%;
   }
-  
