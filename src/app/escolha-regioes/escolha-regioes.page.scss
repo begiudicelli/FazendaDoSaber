@@ -1,0 +1,36 @@
+ion-content {
+    --ion-background-color: orange;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: black;
+    font-family: 'Kameron', serif;
+  }
+  
+  .botao-branco {
+    --background: #f5f5dc;
+    --color: #000000;
+    --border-radius: 8px;
+    --box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    justify-content: flex-start;
+    position: relative;
+    text-align: left; 
+  }
+  
+  .botao-branco button {
+    font-family: 'Kameron', serif;
+  }
+  
+  .bolinha {
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+  }
+  
