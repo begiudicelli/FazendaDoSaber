@@ -1,14 +1,17 @@
 import { Component} from '@angular/core';
 import { Router } from '@angular/router';
 import { CommonModule } from '@angular/common'; 
-import { IonContent, IonToolbar, IonButtons, IonBackButton, IonImg} from '@ionic/angular/standalone';
+import { IonContent, IonToolbar, IonButtons, IonBackButton, IonImg, IonChip, IonLabel, IonGrid, IonCol, IonRow, IonText, IonButton, IonIcon} from '@ionic/angular/standalone';
+
+import { addIcons } from 'ionicons';
+import { playOutline} from 'ionicons/icons';
 
 @Component({
   selector: 'app-confirma-regiao',
   templateUrl: './confirma-regiao.page.html',
   styleUrls: ['./confirma-regiao.page.scss'],
   standalone: true,
-  imports: [CommonModule, IonContent, IonToolbar, IonButtons, IonBackButton, IonImg]
+  imports: [CommonModule, IonContent, IonToolbar, IonButtons, IonBackButton, IonImg, IonChip, IonLabel, IonGrid, IonCol, IonRow, IonText, IonButton, IonIcon]
 })
 
 export class ConfirmaRegiaoPage  {
@@ -17,6 +20,7 @@ export class ConfirmaRegiaoPage  {
   animal: string = '';
 
   constructor(private router: Router) {
+    addIcons({playOutline});
     const navigation = this.router.getCurrentNavigation();
     if (navigation?.extras.state) {
       this.regiaoEscolhida = navigation.extras.state['regiao'];
