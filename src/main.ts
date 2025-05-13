@@ -6,21 +6,29 @@ import { IonicRouteStrategy, provideIonicAngular } from '@ionic/angular/standalo
 import { routes } from './app/app.routes';
 import { AppComponent } from './app/app.component';
 
-import { provideFirebaseApp, initializeApp } from '@angular/fire/app';
-import { provideAuth, getAuth } from '@angular/fire/auth';
-
-import { environment } from './environments/environment';
 import { IonicModule } from '@ionic/angular';
+
+import { initializeApp } from 'firebase/app';
+import { getAuth } from 'firebase/auth';
+import { environment } from './environments/environment';
+
+const app = initializeApp(environment.firebaseConfig);
+const auth = getAuth(app);
+
+console.log('Firebase app initialized in main.ts:', app);
+console.log('Firebase auth initialized in main.ts:', auth);
+
+import { provideFirebaseApp } from '@angular/fire/app';
+import { provideAuth } from '@angular/fire/auth';
 
 bootstrapApplication(AppComponent, {
   providers: [
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy },
     provideIonicAngular(),
     provideRouter(routes, withPreloading(PreloadAllModules)),
-
     importProvidersFrom(IonicModule.forRoot()),
-
-    provideFirebaseApp(() => initializeApp(environment.firebaseConfig)),
-    provideAuth(() => getAuth())
+    
+    provideFirebaseApp(() => app),
+    provideAuth(() => auth)
   ]
 });

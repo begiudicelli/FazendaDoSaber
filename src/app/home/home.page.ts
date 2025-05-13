@@ -13,6 +13,7 @@ import { LoginComponent } from '../login/login.component';
   selector: 'app-home',
   templateUrl: 'home.page.html',
   styleUrls: ['home.page.scss'],
+  standalone: true,
   imports: [IonicModule],
 })
 export class HomePage implements OnInit {
@@ -21,12 +22,13 @@ export class HomePage implements OnInit {
   }
 
   ngOnInit() {
-    const auth = getAuth();
-    const user: User | null = auth.currentUser;
-    
-    if (user) {
-      this.router.navigate(['/escolha-regioes']);
-    }
+      const auth = getAuth();
+      const user: User | null = auth.currentUser;
+      
+      if (user) {
+        this.router.navigate(['/escolha-regioes']);
+      }
+
   }
 
   async openLoginModal() {

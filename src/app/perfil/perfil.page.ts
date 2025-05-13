@@ -6,7 +6,7 @@ import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 
 import { addIcons } from 'ionicons';
-import { mailOutline, calendarOutline, playOutline, logOutOutline} from 'ionicons/icons';
+import { mailOutline, calendarOutline, playOutline, logOutOutline, personOutline} from 'ionicons/icons';
 
 interface ExtendedUser extends User {
   name?: string;
@@ -30,7 +30,7 @@ export class PerfilPage implements OnInit {
   constructor(private router: Router) {}
 
   ngOnInit() {
-    addIcons({ mailOutline, calendarOutline, playOutline, logOutOutline});
+    addIcons({ mailOutline, calendarOutline, playOutline, logOutOutline, personOutline});
 
     const auth = getAuth();
     const currentUser = auth.currentUser;
