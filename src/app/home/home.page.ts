@@ -1,10 +1,11 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { ModalController } from '@ionic/angular';
-import { IonContent, IonButton, IonTitle, IonButtons, IonIcon,} from '@ionic/angular/standalone';
+import { getAuth, User } from 'firebase/auth';
 
+import { IonicModule} from '@ionic/angular';
 import { addIcons } from 'ionicons';
-import { playOutline , settingsOutline, gameControllerOutline} from 'ionicons/icons';
+import { playOutline, settingsOutline, gameControllerOutline } from 'ionicons/icons';
 
 import { LoginComponent } from '../login/login.component';
 
@@ -12,12 +13,20 @@ import { LoginComponent } from '../login/login.component';
   selector: 'app-home',
   templateUrl: 'home.page.html',
   styleUrls: ['home.page.scss'],
-  imports: [IonContent, IonButton, IonTitle, IonIcon],
+  imports: [IonicModule],
 })
-
-export class HomePage {
+export class HomePage implements OnInit {
   constructor(private router: Router, private modalController: ModalController) {
-    addIcons({playOutline, settingsOutline, gameControllerOutline})
+    addIcons({ playOutline, settingsOutline, gameControllerOutline });
+  }
+
+  ngOnInit() {
+    const auth = getAuth();
+    const user: User | null = auth.currentUser;
+    
+    if (user) {
+      this.router.navigate(['/escolha-regioes']);
+    }
   }
 
   async openLoginModal() {
@@ -27,7 +36,7 @@ export class HomePage {
 
     modal.onDidDismiss().then((result) => {
       if (result.data?.authenticated) {
-        this.router.navigate(['/escolha-regioes'])
+        this.router.navigate(['/perfil']);
       }
     });
     return await modal.present();

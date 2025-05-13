@@ -18,4 +18,8 @@ export const routes: Routes = [
     path: 'confirma-regiao',
     loadComponent: () => import('./confirma-regiao/confirma-regiao.page').then( m => m.ConfirmaRegiaoPage)
   },
+  {
+    path: 'perfil',
+    loadComponent: () => import('./perfil/perfil.page').then( m => m.PerfilPage)
+  },
 ];
