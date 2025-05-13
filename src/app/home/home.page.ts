@@ -11,10 +11,13 @@ import { playOutline , settingsOutline, gameControllerOutline} from 'ionicons/ic
   styleUrls: ['home.page.scss'],
   imports: [IonContent, IonButton, IonTitle, IonIcon],
 })
+
 export class HomePage {
   constructor(private router: Router) {
     addIcons({playOutline, settingsOutline, gameControllerOutline})
   }
+
+
   
   goToRegioesPage(){
     this.router.navigate(['/escolha-regioes'])
