@@ -1,7 +1,7 @@
 import { Component} from '@angular/core';
 import { Router } from '@angular/router';
 import { CommonModule } from '@angular/common'; 
-import { IonContent, IonToolbar, IonButtons, IonBackButton, IonImg, IonChip, IonLabel, IonGrid, IonCol, IonRow, IonText, IonButton, IonIcon} from '@ionic/angular/standalone';
+import { IonicModule } from '@ionic/angular';
 
 import { addIcons } from 'ionicons';
 import { playOutline} from 'ionicons/icons';
@@ -11,7 +11,7 @@ import { playOutline} from 'ionicons/icons';
   templateUrl: './confirma-regiao.page.html',
   styleUrls: ['./confirma-regiao.page.scss'],
   standalone: true,
-  imports: [CommonModule, IonContent, IonToolbar, IonButtons, IonBackButton, IonImg, IonChip, IonLabel, IonGrid, IonCol, IonRow, IonText, IonButton, IonIcon]
+  imports: [IonicModule, CommonModule]
 })
 
 export class ConfirmaRegiaoPage  {

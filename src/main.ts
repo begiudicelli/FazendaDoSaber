@@ -15,9 +15,6 @@ import { environment } from './environments/environment';
 const app = initializeApp(environment.firebaseConfig);
 const auth = getAuth(app);
 
-console.log('Firebase app initialized in main.ts:', app);
-console.log('Firebase auth initialized in main.ts:', auth);
-
 import { provideFirebaseApp } from '@angular/fire/app';
 import { provideAuth } from '@angular/fire/auth';
 

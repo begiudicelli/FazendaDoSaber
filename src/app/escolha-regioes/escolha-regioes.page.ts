@@ -1,14 +1,14 @@
 import { Component} from '@angular/core';
 import { Router } from '@angular/router';
 import { CommonModule } from '@angular/common'; 
-import { IonContent, IonToolbar, IonButton, IonButtons, IonGrid, IonRow, IonCol, IonBackButton, IonImg} from '@ionic/angular/standalone';
+import { IonicModule } from '@ionic/angular';
 
 @Component({
   selector: 'app-escolha-regioes',
   templateUrl: './escolha-regioes.page.html',
   styleUrls: ['./escolha-regioes.page.scss'],
   standalone: true,
-  imports: [CommonModule, IonContent, IonToolbar, IonButton, IonButtons, IonGrid,IonRow, IonCol, IonBackButton, IonImg]
+  imports: [IonicModule, CommonModule]
 })
 export class EscolhaRegioesPage {
 
