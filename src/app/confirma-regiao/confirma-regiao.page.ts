@@ -1,7 +1,9 @@
 import { Component} from '@angular/core';
 import { Router } from '@angular/router';
 import { CommonModule } from '@angular/common'; 
+import { FormsModule } from '@angular/forms';
 import { IonicModule } from '@ionic/angular';
+import { RouterModule } from '@angular/router';
 
 import { addIcons } from 'ionicons';
 import { playOutline} from 'ionicons/icons';
@@ -11,7 +13,7 @@ import { playOutline} from 'ionicons/icons';
   templateUrl: './confirma-regiao.page.html',
   styleUrls: ['./confirma-regiao.page.scss'],
   standalone: true,
-  imports: [IonicModule, CommonModule]
+  imports: [IonicModule, CommonModule, FormsModule, RouterModule]
 })
 
 export class ConfirmaRegiaoPage  {
@@ -54,5 +56,9 @@ export class ConfirmaRegiaoPage  {
         this.dificuldade = 'Desconhecida';
         this.animal = 'Animal desconhecido';
     }
+  }
+
+  voltar(){
+    this.router.navigate(['/escolha-regioes']);
   }
 }
