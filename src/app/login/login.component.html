@@ -1,21 +1,74 @@
 <ion-header>
   <ion-toolbar>
     <ion-title>Login</ion-title>
+    <ion-buttons slot="end">
+      <ion-button (click)="closeModal()" fill="clear">
+        <ion-icon name="close"></ion-icon>
+      </ion-button>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
-  <ion-item>
-    <ion-label position="floating">E-mail</ion-label>
-    <ion-input [(ngModel)]="email" type="email"></ion-input>
-  </ion-item>
+<ion-content class="ion-padding">
+  <div class="login-container">
+    
+    <div class="welcome-section">
+      <ion-icon name="person-circle-outline" class="welcome-icon"></ion-icon>
+      <h1>Bem vindo</h1>
+      <p>Entre em sua conta</p>
+    </div>
 
-  <ion-item>
-    <ion-label position="floating">Senha</ion-label>
-    <ion-input [(ngModel)]="password" type="password"></ion-input>
-  </ion-item>
+    <ion-card class="login-card">
+      <ion-card-content>
+        
+        <ion-item lines="full">
+          <ion-label position="floating">Email</ion-label>
+          <ion-input 
+            type="email" 
+            [(ngModel)]="email"
+            name="email"
+            placeholder="Email">
+          </ion-input>
+        </ion-item>
 
-  <ion-button expand="full" (click)="login()">Fazer Login</ion-button>
-  <ion-button expand="full" (click)="register()">Cadastrar</ion-button>
-  <ion-button expand="full" (click)="loginAnonymously()">Entrar como Anônimo</ion-button>
+        <ion-item lines="full">
+          <ion-label position="floating">Senha</ion-label>
+          <ion-input 
+            type="password" 
+            [(ngModel)]="password"
+            name="password"
+            placeholder="Senha">
+          </ion-input>
+        </ion-item>
+
+        <div class="button-section">
+          <ion-button 
+            expand="block" 
+            (click)="login()"
+            class="login-button">
+            <ion-icon name="log-in-outline" slot="start"></ion-icon>
+              Login
+          </ion-button>
+
+          <ion-button 
+            expand="block" 
+            fill="outline" 
+            (click)="register()"
+            class="register-button">
+            <ion-icon name="person-add-outline" slot="start"></ion-icon>
+            Criar conta
+          </ion-button>
+
+          <ion-button 
+            expand="block" 
+            fill="clear" 
+            (click)="loginAnonymously()"
+            class="guest-button">
+            <ion-icon name="eye-outline" slot="start"></ion-icon>
+            Entre como anonimo
+          </ion-button>
+        </div>
+      </ion-card-content>
+    </ion-card>
+  </div>
 </ion-content>

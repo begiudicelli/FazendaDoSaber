@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { AuthService } from '../auth.service';
 
 import { FormsModule } from '@angular/forms';
@@ -7,6 +7,9 @@ import { ModalController } from '@ionic/angular';
 
 import { IonicModule} from '@ionic/angular';
 
+import { addIcons } from 'ionicons';
+import { close, eyeOutline, logInOutline, personAddOutline, personCircleOutline} from 'ionicons/icons';
+
 
 @Component({
   selector: 'app-login',
@@ -14,7 +17,7 @@ import { IonicModule} from '@ionic/angular';
   styleUrls: ['./login.component.scss'],
   imports: [IonicModule, FormsModule],
 })
-export class LoginComponent {
+export class LoginComponent implements OnInit {
 
   email: string = '';
   password: string = '';
@@ -23,6 +26,10 @@ export class LoginComponent {
     private authService: AuthService,
     private modalController: ModalController
   ) {}
+
+    ngOnInit() {
+      addIcons({close, eyeOutline, logInOutline, personAddOutline, personCircleOutline});
+    }
 
   async login() {
     try {
