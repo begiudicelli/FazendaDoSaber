@@ -18,7 +18,7 @@ export class EscolhaRegioesPage {
     this.router.navigate(['confirma-regiao'], { state: { regiao: regiao } });
   }
 
-    voltar(){
+  voltar(){
     this.router.navigate(['/perfil']);
   }
 }

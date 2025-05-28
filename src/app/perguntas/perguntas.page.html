@@ -1,0 +1,41 @@
+<ion-buttons slot="start">
+    <ion-button color="light" size="large">X</ion-button>
+</ion-buttons>
+
+
+<ion-content [fullscreen]="true" class="ion-padding custom-background">
+
+  <ion-grid>
+    <ion-row justify-content-center>
+      <ion-col size="12" class="ion-text-center">
+        <ion-text color="light">
+          <h2>Escolha a opção correta</h2>
+        </ion-text>
+      </ion-col>
+    </ion-row>
+
+    <ion-row class="ion-justify-content-center ion-align-items-center" style="height: 60vh;">
+      <ion-col size="12" class="ion-text-center question-container">
+        <img src="assets/balao.png"/>
+          <ion-text color="light">Pergunta?</ion-text>
+      </ion-col>
+    </ion-row>
+
+    <ion-row class="ion-justify-content-center ion-padding-top">
+      <ion-col size="10">
+        <ion-button color="dark" shape="round" expand="block">Resposta1</ion-button>
+      </ion-col>
+    </ion-row>
+    <ion-row class="ion-justify-content-center">
+      <ion-col size="10">
+        <ion-button color="dark" shape="round" expand="block">Resposta2</ion-button>
+      </ion-col>
+    </ion-row>
+    <ion-row class="ion-justify-content-center">
+      <ion-col size="10">
+        <ion-button color="dark" shape="round" expand="block">Resposta3</ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+</ion-content>
