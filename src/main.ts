@@ -12,6 +12,8 @@ import { initializeApp } from 'firebase/app';
 import { getAuth } from 'firebase/auth';
 import { environment } from './environments/environment';
 
+import { provideHttpClient } from '@angular/common/http';
+
 const app = initializeApp(environment.firebaseConfig);
 const auth = getAuth(app);
 
@@ -24,7 +26,7 @@ bootstrapApplication(AppComponent, {
     provideIonicAngular(),
     provideRouter(routes, withPreloading(PreloadAllModules)),
     importProvidersFrom(IonicModule.forRoot()),
-    
+    provideHttpClient(),
     provideFirebaseApp(() => app),
     provideAuth(() => auth)
   ]

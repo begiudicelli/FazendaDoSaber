@@ -62,7 +62,11 @@ export class ConfirmaRegiaoPage  {
     this.router.navigate(['/escolha-regioes']);
   }
   
-  jogar(){
-    this.router.navigate(['/perguntas'])
-  }
+ jogar(){
+  this.router.navigate(['/perguntas'], {
+    state: {
+      regiao: this.regiaoEscolhida
+    }
+  });
+}
 }
