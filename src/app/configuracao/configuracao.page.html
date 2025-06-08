@@ -1,0 +1,40 @@
+
+<ion-content [fullscreen]="true">
+
+  <div class="custom-footer">
+    <ion-button shape="round" [routerLink]="'/home'">
+      <ion-icon name="arrow-back-outline"></ion-icon>
+    </ion-button>
+  </div>
+
+  <div class="custom-header" style="text-align: center;">
+    <h1><span class="red-letter">C</span>onfiguracao </h1>
+  </div><br>
+
+  <div class="custom-header" style="text-align: center;">
+    <h1><span class="red-letter">V</span>olume </h1>
+  </div>
+
+  <ion-range aria-label="Temperature">    
+    <ion-icon slot="start" name="volume-off-outline"></ion-icon> 
+    <ion-icon slot="end" name="volume-high-outline"></ion-icon>
+  </ion-range>
+
+  
+
+  <div class="custom-header" style="text-align: center;">
+    <h1>Termos de uso</h1>
+    <ion-button shape="round" [routerLink]="'/home'" >
+      <ion-icon name="reader-outline"></ion-icon>
+    </ion-button>
+  </div><br>
+ 
+  <div class="custom-header" style="text-align: center;">
+    <h1>Politica de Privacidade</h1>
+
+    <ion-button shape="round" [routerLink]="'/home'">
+      <ion-icon name="reader-outline"></ion-icon>
+    </ion-button>
+  </div><br>
+
+</ion-content>

@@ -8,13 +8,15 @@ import { addIcons } from 'ionicons';
 import { playOutline, settingsOutline, gameControllerOutline } from 'ionicons/icons';
 
 import { LoginComponent } from '../login/login.component';
+import { ActivatedRoute, RouterLinkWithHref } from '@angular/router';
+
 
 @Component({
   selector: 'app-home',
   templateUrl: 'home.page.html',
   styleUrls: ['home.page.scss'],
   standalone: true,
-  imports: [IonicModule],
+  imports: [IonicModule, RouterLinkWithHref],
 })
 export class HomePage implements OnInit {
   constructor(private router: Router, private modalController: ModalController) {
@@ -43,4 +45,6 @@ export class HomePage implements OnInit {
     });
     return await modal.present();
   }
+
+  
 }
