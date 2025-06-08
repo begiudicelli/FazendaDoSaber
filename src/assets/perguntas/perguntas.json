@@ -2,19 +2,25 @@
   "regioes": {
     "norte": [
       {
-        "pergunta": "Qual é o maior estado em extensão territorial da região Norte?",
+        "pergunta": "(Geral) Qual é o maior estado em extensão territorial da região Norte?",
         "opcoes": ["Amazonas", "Pará", "Rondônia", "Acre"],
         "resposta": 0,
         "dica": "Este estado abriga a maior parte da Floresta Amazônica."
       },
       {
-        "pergunta": "Qual destes rios não banha a região Norte?",
+        "pergunta": "(Especifica - Fácil) Qual desafio é mais crítico para a criação de ovinos na região Norte?",
+        "opcoes":["Falta de mercado consumidor", "Alta umidade e incidência de verminoses", "Neve no inverno", "Proibição legal da atividade"],
+        "resposta": 1,
+        "dica": "Desafios logísticos e sanitários."
+      },
+      {
+        "pergunta": "(Geral) Qual destes rios não banha a região Norte?",
         "opcoes": ["Rio Amazonas", "Rio Tocantins", "Rio São Francisco", "Rio Negro"],
         "resposta": 2,
         "dica": "Este rio é importante para o Nordeste brasileiro."
       },
       {
-        "pergunta": "Qual é a capital do estado do Pará?",
+        "pergunta": "(Geral) Qual é a capital do estado do Pará?",
         "opcoes": ["Manaus", "Belém", "Porto Velho", "Rio Branco"],
         "resposta": 1,
         "dica": "Conhecida como 'Cidade das Mangueiras'."
@@ -60,14 +66,21 @@
         "opcoes": ["Tacacá", "Acarajé", "Pão de queijo", "Barreado"],
         "resposta": 0,
         "dica": "Prato feito com tucupi, jambu e camarão."
-      }
+      } 
+  
     ],
     "nordeste": [
       {
-        "pergunta": "Qual é o maior estado em extensão territorial do Nordeste?",
+        "pergunta": "(Geral) Qual é o maior estado em extensão territorial do Nordeste?",
         "opcoes": ["Bahia", "Piauí", "Maranhão", "Ceará"],
         "resposta": 0,
         "dica": "Terra do axé e do carnaval de Salvador."
+      },
+      {
+        "pergunta": "(Específica - Médio) Qual raça de ovino é mais utilizada no semiárido nordestino por sua resistência à seca, segundo a Embrapa?",
+        "opcoes": ["Suffolk", "Dorper", "Santa Inês", "Morada Nova"],
+        "resposta": 3,
+        "dica": "Raça local que se adaptou ao clima árido. Encontre mais em: https://www.embrapa.br/caprinos-e-ovinos" 
       },
       {
         "pergunta": "Qual destas festas populares é típica do Nordeste?",
@@ -122,7 +135,14 @@
         "opcoes": ["Alagoas", "Sergipe", "Tocantins", "Rio Grande do Norte"],
         "resposta": 2,
         "dica": "Pertence à região Norte."
-      }
+      }, 
+      {
+        "pergunta": "(Específica - Fácil) Qual sistema de criação de ovinos é mais comum no Nordeste brasileiro, segundo a EMBRAPA?",
+        "opcoes": ["Intensivo e confinamento", "Extensivo em caatinga (soltos em áreas nativas)", "Sistema de transumância (migração sazonal)", "Produção em estufas climatizadas"],
+        "resposta": 1,
+        "dica": "Predomínio de raças rústicas (ex>: Morada Nova) e sistemas extensivos."
+      } 
+
     ],
     "centro_oeste": [
       {
@@ -130,6 +150,12 @@
         "opcoes": ["São Paulo", "Rio de Janeiro", "Brasília", "Belo Horizonte"],
         "resposta": 2,
         "dica": "Projetada por Oscar Niemeyer e Lúcio Costa."
+      },
+      {
+        "pergunta": "(Geral - Fácil) Qual tecnologia desenvolvida pela Embrapa ajuda pequenos produtores de ovinos a reduzir custos com alimentação?",
+        "opcoes": ["Ração à base de algas marinhas", "Uso de palma forrageira na dieta", "Transgênicos para substituis pastagens", "Importação de feno dos EUA"],
+        "resposta": 1,
+        "dica": "Fonte de água e nutrientes, comum no Nordeste. Encontre mais em: https://www.embrapa.br/semiarido"
       },
       {
         "pergunta": "Qual destes estados não faz parte do Centro-Oeste?",
@@ -184,6 +210,12 @@
         "opcoes": ["Pacu assado", "Buchada de bode", "Barreado", "Feijoada"],
         "resposta": 0,
         "dica": "Peixe típico da região pantaneira."
+      },
+      {
+        "pergunta": "(Específica - Fácil) Por que o Centro-Oeste tem se destacado na ovinocultura de corte?",
+        "opcoes": ["Uso de raças tropicais como Dorper e Santa Inês", "Clima frio, ideal para ovinos de lã", "Abundância de pastagens naturais de altitude", "Isenção de vacinas obrigatórias"],
+        "resposta": 0,
+        "dica": "Expansão da ovinocultura de corte integrada à soja e milho."
       }
     ],
     "sudeste": [
@@ -246,7 +278,14 @@
         "opcoes": ["Queijo coalho", "Queijo prato", "Queijo canastra", "Queijo provolone"],
         "resposta": 2,
         "dica": "Feito com leite cru e maturado em formas de madeira."
+      }, 
+      {
+        "pergunta": "No sudeste, qual sistema tem ganhado espaço na ovinocultura?",
+        "opcoes": ["Criação em pequenas propriedades para nichos (carne orgânica/Cordeiro precoce)", "Produção extensiva em áreas de floresta", "Importação de ovinos da Europa", "Foco exclusivo em lã para exportação"],
+        "resposta": 0,
+        "dica": "Mercado consumidor exigente."
       }
+
     ],
     "sul": [
       {
@@ -308,7 +347,15 @@
         "opcoes": ["Fandango", "Bumba meu boi", "Boi de mamão", "Chula"],
         "resposta": 3,
         "dica": "Dança típica dos pampas."
+      },
+      
+      {
+        "pergunta": "Na região Sul, qual é o principal foco da ovinocultura?",
+        "opcoes": ["Produção de lã (raças como Merino e Corriedale)", "Criação de ovinos para tração animal", "Exportação de animais vivos para o Oriente Médio", "Produção de leite ovino em larga escala"],
+        "resposta": 0,
+        "dica": "Tradição em lá e dupla aptidão (carne/lã)."
       }
+
     ]
   }
 }
