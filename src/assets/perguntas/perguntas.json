@@ -20,49 +20,55 @@
         "dica": "Este rio é importante para o Nordeste brasileiro."
       },
       {
+        "pergunta": "(Técnica - Médio) Qual protocolo de sincronização de cio é mais utilizado em ovinos no Brasil?",
+        "opcoes": ["Uso de prostaglandinas + eCG", "Implantes de progesterona por 60 dias", "Somente luz artificial", "Injeções de testosterona"],
+        "resposta": 0,
+        "dica": "Envolve dois hormônios e tem duração de cerca de 12 dias."
+      },
+      {
         "pergunta": "(Geral) Qual é a capital do estado do Pará?",
         "opcoes": ["Manaus", "Belém", "Porto Velho", "Rio Branco"],
         "resposta": 1,
         "dica": "Conhecida como 'Cidade das Mangueiras'."
       },
       {
-        "pergunta": "O Festival de Parintins acontece em qual estado?",
+        "pergunta": "(Geral) O Festival de Parintins acontece em qual estado?",
         "opcoes": ["Amazonas", "Roraima", "Amapá", "Tocantins"],
         "resposta": 0,
         "dica": "É uma competição entre os bois Garantido e Caprichoso."
       },
       {
-        "pergunta": "Qual destes não é um estado da região Norte?",
+        "pergunta": "(Geral) Qual destes não é um estado da região Norte?",
         "opcoes": ["Amapá", "Rondônia", "Mato Grosso", "Tocantins"],
         "resposta": 2,
         "dica": "Este estado pertence à região Centro-Oeste."
       },
       {
-        "pergunta": "Qual é o bioma predominante na região Norte?",
+        "pergunta": "(Geral) Qual é o bioma predominante na região Norte?",
         "opcoes": ["Cerrado", "Caatinga", "Floresta Amazônica", "Mata Atlântica"],
         "resposta": 2,
         "dica": "Maior floresta tropical do mundo."
       },
       {
-        "pergunta": "O Pico da Neblina, ponto mais alto do Brasil, está localizado em qual estado?",
+        "pergunta": "(Geral) O Pico da Neblina, ponto mais alto do Brasil, está localizado em qual estado?",
         "opcoes": ["Amazonas", "Roraima", "Pará", "Amapá"],
         "resposta": 0,
         "dica": "Faz fronteira com a Venezuela."
       },
       {
-        "pergunta": "Qual destas cidades não é capital de estado na região Norte?",
+        "pergunta": "(Geral) Qual destas cidades não é capital de estado na região Norte?",
         "opcoes": ["Macapá", "Boa Vista", "Palmas", "Santarem"],
         "resposta": 3,
         "dica": "Esta cidade é importante no Pará, mas não é a capital."
       },
       {
-        "pergunta": "O Arquipélago de Marajó está localizado em qual estado?",
+        "pergunta": "(Geral) O Arquipélago de Marajó está localizado em qual estado?",
         "opcoes": ["Amazonas", "Amapá", "Pará", "Maranhão"],
         "resposta": 2,
         "dica": "Maior arquipélago fluviomarinho do mundo."
       },
       {
-        "pergunta": "Qual destes produtos é típico da culinária nortista?",
+        "pergunta": "(Geral) Qual destes produtos é típico da culinária nortista?",
         "opcoes": ["Tacacá", "Acarajé", "Pão de queijo", "Barreado"],
         "resposta": 0,
         "dica": "Prato feito com tucupi, jambu e camarão."
@@ -83,70 +89,70 @@
         "dica": "Raça local que se adaptou ao clima árido. Encontre mais em: https://www.embrapa.br/caprinos-e-ovinos" 
       },
       {
-        "pergunta": "Qual destas festas populares é típica do Nordeste?",
+        "pergunta": "(Geral) Qual destas festas populares é típica do Nordeste?",
         "opcoes": ["Festa Junina", "Oktoberfest", "Festa do Peão de Boiadeiro", "Carnaval de Veneza"],
         "resposta": 0,
         "dica": "Comidas típicas incluem milho e pé de moleque."
       },
+       {
+        "pergunta": "(Específica - Fácil) Qual sistema de criação de ovinos é mais comum no Nordeste brasileiro, segundo a EMBRAPA?",
+        "opcoes": ["Intensivo e confinamento", "Extensivo em caatinga (soltos em áreas nativas)", "Sistema de transumância (migração sazonal)", "Produção em estufas climatizadas"],
+        "resposta": 1,
+        "dica": "Predomínio de raças rústicas (ex: Morada Nova) e sistemas extensivos."
+      } ,
       {
-        "pergunta": "Qual é o rio mais importante do Nordeste?",
+        "pergunta": "(Geral) Qual é o rio mais importante do Nordeste?",
         "opcoes": ["Rio São Francisco", "Rio Parnaíba", "Rio Jaguaribe", "Rio Potengi"],
         "resposta": 0,
         "dica": "Conhecido como 'Velho Chico'."
       },
       {
-        "pergunta": "Em qual estado fica o Parque Nacional dos Lençóis Maranhenses?",
+        "pergunta": "(Geral) Em qual estado fica o Parque Nacional dos Lençóis Maranhenses?",
         "opcoes": ["Ceará", "Rio Grande do Norte", "Maranhão", "Piauí"],
         "resposta": 2,
         "dica": "Famoso por suas lagoas de água doce entre dunas."
       },
       {
-        "pergunta": "Qual destas danças é típica do Nordeste?",
+        "pergunta": "(Geral) Qual destas danças é típica do Nordeste?",
         "opcoes": ["Frevo", "Samba", "Vanerão", "Baião"],
         "resposta": 3,
         "dica": "Ritmo criado por Luiz Gonzaga."
       },
       {
-        "pergunta": "Qual é o clima predominante no sertão nordestino?",
+        "pergunta": "(Geral) Qual é o clima predominante no sertão nordestino?",
         "opcoes": ["Equatorial", "Tropical", "Semiárido", "Subtropical"],
         "resposta": 2,
         "dica": "Caracterizado por longos períodos de seca."
       },
       {
-        "pergunta": "Qual destas cidades não é capital de estado no Nordeste?",
+        "pergunta": "(Geral) Qual destas cidades não é capital de estado no Nordeste?",
         "opcoes": ["João Pessoa", "Natal", "Maceió", "Juazeiro do Norte"],
         "resposta": 3,
         "dica": "Importante cidade religiosa no Ceará."
       },
       {
-        "pergunta": "Qual destes pratos é típico da culinária nordestina?",
+        "pergunta": "(Geral) Qual destes pratos é típico da culinária nordestina?",
         "opcoes": ["Acarajé", "Feijoada", "Pizza", "Churrasco"],
         "resposta": 0,
         "dica": "Bolinho de feijão-fradinho frito no azeite de dendê."
       },
       {
-        "pergunta": "O que é o 'Bumba meu boi'?",
+        "pergunta": "(Geral) O que é o 'Bumba meu boi'?",
         "opcoes": ["Um prato típico", "Uma dança folclórica", "Um tipo de artesanato", "Um instrumento musical"],
         "resposta": 1,
         "dica": "Manifestação cultural que mistura dança, teatro e música."
       },
       {
-        "pergunta": "Qual destes estados não faz parte do Nordeste?",
+        "pergunta": "(Geral) Qual destes estados não faz parte do Nordeste?",
         "opcoes": ["Alagoas", "Sergipe", "Tocantins", "Rio Grande do Norte"],
         "resposta": 2,
         "dica": "Pertence à região Norte."
-      }, 
-      {
-        "pergunta": "(Específica - Fácil) Qual sistema de criação de ovinos é mais comum no Nordeste brasileiro, segundo a EMBRAPA?",
-        "opcoes": ["Intensivo e confinamento", "Extensivo em caatinga (soltos em áreas nativas)", "Sistema de transumância (migração sazonal)", "Produção em estufas climatizadas"],
-        "resposta": 1,
-        "dica": "Predomínio de raças rústicas (ex>: Morada Nova) e sistemas extensivos."
-      } 
+      }
 
     ],
     "centro_oeste": [
       {
-        "pergunta": "Qual é a capital do Brasil?",
+        "pergunta": "(Geral) Qual é a capital do Brasil?",
         "opcoes": ["São Paulo", "Rio de Janeiro", "Brasília", "Belo Horizonte"],
         "resposta": 2,
         "dica": "Projetada por Oscar Niemeyer e Lúcio Costa."
@@ -158,55 +164,61 @@
         "dica": "Fonte de água e nutrientes, comum no Nordeste. Encontre mais em: https://www.embrapa.br/semiarido"
       },
       {
-        "pergunta": "Qual destes estados não faz parte do Centro-Oeste?",
+        "pergunta": "(Geral) Qual destes estados não faz parte do Centro-Oeste?",
         "opcoes": ["Mato Grosso", "Mato Grosso do Sul", "Goiás", "Tocantins"],
         "resposta": 3,
         "dica": "Pertence à região Norte."
       },
       {
-        "pergunta": "Qual é o bioma predominante no Centro-Oeste?",
+        "pergunta": "(Sanitária - Fácil) Qual vacina é obrigatória para ovinos em todo o território nacional?",
+        "opcoes": ["Febre aftosa", "Raiva", "Brucelose", "Não há vacinas obrigatórias para ovinos"],
+        "resposta": 3,
+        "dica": "Diferente dos bovinos, os ovinos não têm vacinas obrigatórias por lei federal."
+      },
+      {
+        "pergunta": "(Geral) Qual é o bioma predominante no Centro-Oeste?",
         "opcoes": ["Cerrado", "Caatinga", "Mata Atlântica", "Pampa"],
         "resposta": 0,
         "dica": "Conhecido como 'berço das águas' do Brasil."
       },
       {
-        "pergunta": "O Pantanal está localizado principalmente em qual estado?",
+        "pergunta": "(Geral) O Pantanal está localizado principalmente em qual estado?",
         "opcoes": ["Mato Grosso", "Mato Grosso do Sul", "Goiás", "Distrito Federal"],
         "resposta": 1,
         "dica": "Maior planície alagável do mundo."
       },
       {
-        "pergunta": "Qual destas cidades não é capital de estado no Centro-Oeste?",
+        "pergunta": "(Geral) Qual destas cidades não é capital de estado no Centro-Oeste?",
         "opcoes": ["Cuiabá", "Campo Grande", "Goiânia", "Dourados"],
         "resposta": 3,
         "dica": "Importante cidade do Mato Grosso do Sul."
       },
       {
-        "pergunta": "Qual é a principal atividade econômica do Centro-Oeste?",
+        "pergunta": "(Geral) Qual é a principal atividade econômica do Centro-Oeste?",
         "opcoes": ["Indústria", "Agropecuária", "Turismo", "Extrativismo mineral"],
         "resposta": 1,
         "dica": "Maior produtor de grãos do país."
       },
       {
-        "pergunta": "Qual destes parques nacionais está no Centro-Oeste?",
+        "pergunta": "(Geral) Qual destes parques nacionais está no Centro-Oeste?",
         "opcoes": ["Chapada dos Veadeiros", "Serra da Capivara", "Aparados da Serra", "Lençóis Maranhenses"],
         "resposta": 0,
         "dica": "Localizado em Goiás, conhecido por suas formações de quartzito."
       },
       {
-        "pergunta": "Qual destes rios é importante na região Centro-Oeste?",
+        "pergunta": "(Geral) Qual destes rios é importante na região Centro-Oeste?",
         "opcoes": ["Rio Paraguai", "Rio São Francisco", "Rio Amazonas", "Rio Paraná"],
         "resposta": 0,
         "dica": "Nasce no Mato Grosso e forma o Pantanal."
       },
       {
-        "pergunta": "O que significa 'GO' na sigla dos estados?",
+        "pergunta": "(Geral) O que significa 'GO' na sigla dos estados?",
         "opcoes": ["Goiás", "Goyaz", "Guanabara", "Guarapuava"],
         "resposta": 0,
         "dica": "Estado conhecido por suas cachoeiras."
       },
       {
-        "pergunta": "Qual destes pratos é típico do Centro-Oeste?",
+        "pergunta": "(Geral) Qual destes pratos é típico do Centro-Oeste?",
         "opcoes": ["Pacu assado", "Buchada de bode", "Barreado", "Feijoada"],
         "resposta": 0,
         "dica": "Peixe típico da região pantaneira."
@@ -220,140 +232,151 @@
     ],
     "sudeste": [
       {
-        "pergunta": "Qual é o estado mais populoso do Brasil?",
+        "pergunta": "(Geral) Qual é o estado mais populoso do Brasil?",
         "opcoes": ["Minas Gerais", "Rio de Janeiro", "São Paulo", "Espírito Santo"],
         "resposta": 2,
         "dica": "Possui a cidade mais populosa do país."
       },
       {
-        "pergunta": "Qual destas cidades não é capital de estado no Sudeste?",
+        "pergunta": "(Específica - Fácil) No sudeste, qual sistema tem ganhado espaço na ovinocultura?",
+        "opcoes": ["Criação em pequenas propriedades para nichos (carne orgânica/Cordeiro precoce)", "Produção extensiva em áreas de floresta", "Importação de ovinos da Europa", "Foco exclusivo em lã para exportação"],
+        "resposta": 0,
+        "dica": "Mercado consumidor exigente."
+      },
+      {
+        "pergunta": "(Geral) Qual destas cidades não é capital de estado no Sudeste?",
         "opcoes": ["Belo Horizonte", "Vitória", "São Paulo", "Campinas"],
         "resposta": 3,
         "dica": "Importante cidade do interior paulista."
       },
       {
-        "pergunta": "Qual é a montanha mais famosa do Rio de Janeiro?",
+        "pergunta": "(Econômica - Difícil) Qual índice zootécnico é considerado o mais importante para avaliar a eficiência econômica na ovinocultura de corte?",
+        "opcoes": ["Taxa de parição", "Peso ao desmame", "Ganho médio diário", "Taxa de desfrute"],
+        "resposta": 3,
+        "dica": "Reflete a capacidade de transformar animais em produtos comercializáveis."
+      },
+      {
+        "pergunta": "(Geral) Qual é a montanha mais famosa do Rio de Janeiro?",
         "opcoes": ["Pico da Neblina", "Pão de Açúcar", "Pedra da Gávea", "Morro Dois Irmãos"],
         "resposta": 1,
         "dica": "Cartão postal da cidade, acessível por bondinho."
       },
       {
-        "pergunta": "Qual destes eventos é típico de Minas Gerais?",
+        "pergunta": "(Geral) Qual destes eventos é típico de Minas Gerais?",
         "opcoes": ["Festa do Peão de Boiadeiro", "Carnaval de Salvador", "Festa Junina", "Comida di Buteco"],
         "resposta": 3,
         "dica": "Evento gastronômico que percorre bares da cidade."
       },
       {
-        "pergunta": "O que é 'feijoada'?",
+        "pergunta": "(Geral) O que é 'feijoada'?",
         "opcoes": ["Um tipo de dança", "Um prato típico", "Uma festa popular", "Um instrumento musical"],
         "resposta": 1,
         "dica": "Prato feito com feijão preto e carnes diversas."
       },
       {
-        "pergunta": "Qual destes artistas é mineiro?",
+        "pergunta": "(Geral) Qual destes artistas é mineiro?",
         "opcoes": ["Tom Jobim", "Adoniran Barbosa", "Pixinguinha", "Milton Nascimento"],
         "resposta": 3,
         "dica": "Cantor conhecido como 'Bituca'."
       },
       {
-        "pergunta": "O que é o 'MASP'?",
+        "pergunta": "(Geral) O que é o 'MASP'?",
         "opcoes": ["Museu de Arte de São Paulo", "Museu de Arte Sacra Paulista", "Museu de Arte do Século Passado", "Museu de Arte do Sul Paulista"],
         "resposta": 0,
         "dica": "Famoso museu na Avenida Paulista."
       },
       {
-        "pergunta": "Qual destas praias fica no Espírito Santo?",
+        "pergunta": "(Geral) Qual destas praias fica no Espírito Santo?",
         "opcoes": ["Copacabana", "Praia do Forte", "Praia de Guarapari", "Praia do Futuro"],
         "resposta": 2,
         "dica": "Conhecida por suas águas mornas e areias monazíticas."
       },
       {
-        "pergunta": "Qual destas serras fica no Sudeste?",
+        "pergunta": "(Geral) Qual destas serras fica no Sudeste?",
         "opcoes": ["Serra Gaúcha", "Serra do Mar", "Serra da Mantiqueira", "Serra do Cipó"],
         "resposta": 1,
         "dica": "Estende-se por São Paulo, Rio de Janeiro e Paraná."
       },
       {
-        "pergunta": "Qual destes queijos é típico de Minas Gerais?",
+        "pergunta": "(Geral) Qual destes queijos é típico de Minas Gerais?",
         "opcoes": ["Queijo coalho", "Queijo prato", "Queijo canastra", "Queijo provolone"],
         "resposta": 2,
         "dica": "Feito com leite cru e maturado em formas de madeira."
-      }, 
-      {
-        "pergunta": "No sudeste, qual sistema tem ganhado espaço na ovinocultura?",
-        "opcoes": ["Criação em pequenas propriedades para nichos (carne orgânica/Cordeiro precoce)", "Produção extensiva em áreas de floresta", "Importação de ovinos da Europa", "Foco exclusivo em lã para exportação"],
-        "resposta": 0,
-        "dica": "Mercado consumidor exigente."
       }
 
     ],
     "sul": [
       {
-        "pergunta": "Qual é o estado mais frio do Brasil?",
+        "pergunta": "(Geral) Qual é o estado mais frio do Brasil?",
         "opcoes": ["Paraná", "Santa Catarina", "Rio Grande do Sul", "São Paulo"],
         "resposta": 2,
         "dica": "Faz fronteira com o Uruguai e a Argentina."
       },
       {
-        "pergunta": "Qual destas festas é típica do Sul?",
+        "pergunta": "(Específica - Fácil) Na região Sul, qual é o principal foco da ovinocultura?",
+        "opcoes": ["Produção de lã (raças como Merino e Corriedale)", "Criação de ovinos para tração animal", "Exportação de animais vivos para o Oriente Médio", "Produção de leite ovino em larga escala"],
+        "resposta": 0,
+        "dica": "Tradição em lá e dupla aptidão (carne/lã)."
+      },
+      {
+        "pergunta": "(Geral) Qual destas festas é típica do Sul?",
         "opcoes": ["Oktoberfest", "Carnaval", "Festa Junina", "Réveillon"],
         "resposta": 0,
         "dica": "Festa da cerveja de origem alemã."
       },
       {
-        "pergunta": "Qual é a capital do Paraná?",
+        "pergunta": "(Específica - Fácil) Qual é o principal produto da ovinocultura na região Sul do Brasil?",
+        "opcoes": ["Leite ovino", "Lã", "Couro", "Animais para tração"],
+        "resposta": 1,
+        "dica": "Tradição gaúcha herdada dos imigrantes europeus."
+      },
+      {
+        "pergunta": "(Geral) Qual é a capital do Paraná?",
         "opcoes": ["Florianópolis", "Porto Alegre", "Curitiba", "Joinville"],
         "resposta": 2,
         "dica": "Conhecida por seu planejamento urbano."
       },
       {
-        "pergunta": "O que são 'coxinhas' no Rio Grande do Sul?",
+        "pergunta": "(Geral) O que são 'coxinhas' no Rio Grande do Sul?",
         "opcoes": ["Um tipo de doce", "Um prato salgado", "Um apelido carinhoso", "Um tipo de artesanato"],
         "resposta": 1,
         "dica": "Salgados feitos com massa de batata e frango."
       },
       {
-        "pergunta": "Qual destas cidades é conhecida como 'Capital Nacional da Uva'?",
+        "pergunta": "(Geral) Qual destas cidades é conhecida como 'Capital Nacional da Uva'?",
         "opcoes": ["Bento Gonçalves", "Blumenau", "Gramado", "Caxias do Sul"],
         "resposta": 3,
         "dica": "Realiza a Festa da Uva a cada dois anos."
       },
       {
-        "pergunta": "Qual é o bioma predominante no Sul?",
+        "pergunta": "(Geral) Qual é o bioma predominante no Sul?",
         "opcoes": ["Pampa", "Cerrado", "Caatinga", "Mata Atlântica"],
         "resposta": 3,
         "dica": "Originalmente cobria toda a região litorânea."
       },
       {
-        "pergunta": "O que é o 'chimarrão'?",
+        "pergunta": "(Geral) O que é o 'chimarrão'?",
         "opcoes": ["Um prato típico", "Uma bebida", "Uma dança", "Um tipo de artesanato"],
         "resposta": 1,
         "dica": "Bebida feita com erva-mate em uma cuia."
       },
       {
-        "pergunta": "Qual destes pontos turísticos fica no Sul?",
+        "pergunta": "(Geral) Qual destes pontos turísticos fica no Sul?",
         "opcoes": ["Cataratas do Iguaçu", "Lençóis Maranhenses", "Chapada Diamantina", "Bonito"],
         "resposta": 0,
         "dica": "Localizadas na fronteira com a Argentina."
       },
       {
-        "pergunta": "Qual destes estados não faz parte da região Sul?",
+        "pergunta": "(Geral) Qual destes estados não faz parte da região Sul?",
         "opcoes": ["Paraná", "Santa Catarina", "Rio Grande do Sul", "São Paulo"],
         "resposta": 3,
         "dica": "Pertence à região Sudeste."
       },
       {
-        "pergunta": "Qual destas tradições é gaúcha?",
+        "pergunta": "(Geral) Qual destas tradições é gaúcha?",
         "opcoes": ["Fandango", "Bumba meu boi", "Boi de mamão", "Chula"],
         "resposta": 3,
         "dica": "Dança típica dos pampas."
-      },
-      
-      {
-        "pergunta": "Na região Sul, qual é o principal foco da ovinocultura?",
-        "opcoes": ["Produção de lã (raças como Merino e Corriedale)", "Criação de ovinos para tração animal", "Exportação de animais vivos para o Oriente Médio", "Produção de leite ovino em larga escala"],
-        "resposta": 0,
-        "dica": "Tradição em lá e dupla aptidão (carne/lã)."
       }
 
     ]
